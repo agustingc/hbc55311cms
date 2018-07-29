@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sale Associative - Create Client</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h1>Sale Associative - Create Client</h1>
+
+
+  <div class="container">
+    <h2>Please Fill the Form</h2>
+
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Name of the Company:</label>
+        <input type="text" class="form-control" id="text" placeholder="Enter Company Name" name="text">
+      </div>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Adress of the Company:</label>
+          <input type="text" class="form-control" id="text" placeholder="Enter Company Address" name="text">
+        </div>
+
+        <div class="form-group">
+          <label for="pwd">Zip Code:</label>
+          <input type="text" class="form-control" id="zip" placeholder="Enter Zip Code" name="zip">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Province:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Quebec</option>
+            <option>Alberta</option>
+            <option>Manitoba</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">City:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Quebec City</option>
+            <option>Montreal</option>
+            <option>Laval</option>
+          </select>
+        </div>
+        <h3>Please Select The Responsible or Create a New One</h3>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Existing Responsibles:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>John Doe</option>
+            <option>Jane Roe</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Submit with Existing Responsible</button>
+        </div>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">New Responsible First Name:</label>
+            <input type="text" class="form-control" id="text" placeholder="Enter Responsible First Name" name="text">
+          </div>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">New Responsible Last Name:</label>
+              <input type="text" class="form-control" id="text" placeholder="Enter Responsible Last Name:" name="text">
+            </div>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">New Responsible Telephone:</label>
+                <input type="tel" class="form-control" id="tel" placeholder="Enter Responsible Telephone:" name="tel">
+              </div>
+              <div class="form-group">
+                <label for="email">New Responsible Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Responsible email" name="email">
+              </div>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <div class="form-group">
+                <button type="submit" class="btn btn-default">Submit with New Responsible</button>
+                <button type="submit" class="btn btn-default">Back</button>
+              </div>
+            </form>
+  </div>
+
+</body>
+
+</html>

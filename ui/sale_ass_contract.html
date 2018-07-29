@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sale Associative - Create Contract</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h1>Sale Associative - Create Contract</h1>
+
+
+  <div class="container">
+    <h2>Please Fill the Form</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="text">Line of Bussiness:</label>
+        <input type="text" class="form-control" id="text" placeholder="Contract ID" name="text" value="Research" readonly>
+      </div>
+      <div class="form-group">
+        <label for="text">Contract ID:</label>
+        <input type="text" class="form-control" id="text" placeholder="Contract ID" name="text" value="0011" readonly>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Client:</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>ACME INC.</option>
+          <option>ABC INC.</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Client Responsible:</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>John Doe</option>
+          <option>Jane Roe</option>
+        </select>
+      </div>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="text">Service Start:</label>
+          <input type="date" class="form-control" id="text" placeholder="Enter Company Address" name="text">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Responsible Manager:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>John Doe</option>
+            <option>Jane Roe</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="number">Annual Contract Value ($):</label>
+          <input type="number" class="form-control" id="number" placeholder="$" name="number">
+        </div>
+        <div class="form-group">
+          <label for="number">Initial Amount ($):</label>
+          <input type="number" class="form-control" id="number" placeholder="$" name="number">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Type of Service:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Cloud</option>
+            <option>On-Premise</option>
+          </select>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">Back</button>
+        </div>
+
+      </form>
+  </div>
+</body>
+
+</html>
